@@ -7,12 +7,18 @@
   "author": "Odilon Garcez <odilon.garcez.moraes@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
     "nodemon": "^2.0.2"
   },
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js --exec babel-node",
+    "build": "./node_modules/.bin/babel src --out-dir lib"
   },
   "dependencies": {
+    "core-js": "^3.6.1",
     "express": "^4.17.1"
   }
 }
