@@ -1092,10 +1092,15 @@ core-js-compat@^3.6.0:
     browserslist "^4.8.2"
     semver "7.0.0"
 
-core-js@3, core-js@^3.2.1:
+core-js@^3.2.1:
   version "3.6.1"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.6.1.tgz#39d5e2e346258cc01eb7d44345b1c3c014ca3f05"
   integrity sha512-186WjSik2iTGfDjfdCZAxv2ormxtKgemjC3SI6PL31qOA0j5LhTDVjHChccoc7brwLvpvLPiMyRlcO88C4l1QQ==
+
+core-js@^3.6.1:
+  version "3.21.0"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.21.0.tgz#f479dbfc3dffb035a0827602dd056839a774aa71"
+  integrity sha512-YUdI3fFu4TF/2WykQ2xzSiTQdldLB4KVuL9WeAy5XONZYt5Cun/fpQvctoKbCgvPhmzADeesTk/j2Rdx77AcKQ==
 
 core-util-is@~1.0.0:
   version "1.0.2"
@@ -2871,11 +2876,9 @@ type-is@~1.6.17, type-is@~1.6.18:
     mime-types "~2.1.24"
 
 undefsafe@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/undefsafe/-/undefsafe-2.0.2.tgz#225f6b9e0337663e0d8e7cfd686fc2836ccace76"
-  integrity sha1-Il9rngM3Zj4Njnz9aG/Cg2zKznY=
-  dependencies:
-    debug "^2.2.0"
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/undefsafe/-/undefsafe-2.0.5.tgz#38733b9327bdcd226db889fb723a6efd162e6e2c"
+  integrity sha512-WxONCrssBM8TSPRqN5EmsjVrsv4A8X12J4ArBiiayv3DyyG3ZlIg6yysuuSYdZsVz3TKcTg2fd//Ujd4CHV1iA==
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
